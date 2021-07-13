@@ -1,16 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./header";
-import Footer from "./footer";
+import App from "./app";
+import "./style.css";
 
-function App() {
-  return (
-    <>
-      <Header />
-      <div>Hello World!</div>
-      <Footer />
-    </>
-  );
+function index() {
+  return <App />;
 }
 
 ReactDOM.render(<App />, document.querySelector("#root"));

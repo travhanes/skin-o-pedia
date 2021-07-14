@@ -40,6 +40,6 @@
   left: 50%;
   transform: translate(-50%, 0%);
   color: rgb(254, 239, 227);
-  bottom: 7px;
+  bottom: 0px;
   z-index: 10;
 }

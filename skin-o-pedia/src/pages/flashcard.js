@@ -1,11 +1,13 @@
 import React from "react";
-import { pages, App } from "./app";
-import "./header.css";
+import { pages } from "../app";
+import "../header.css";
+import "../footer.css";
 
-export class Header extends React.Component {
+export class Flashcard extends React.Component {
   render() {
     return (
       <>
+        {/* HEADER */}
         <div className="container">
           <h1 className="logo">S K I N - O - P E D I A</h1>
           <div className="part part-1">
@@ -57,6 +59,28 @@ export class Header extends React.Component {
             >
               About
             </a>
+          </div>
+        </div>
+
+        <div>Flashcard</div>
+
+        {/* FOOTER */}
+        <div className="footer-container">
+          <p className="credits">created by New Technologist interns</p>
+          <div className="part part-1">
+            <div className="shade shade-1"></div>
+          </div>
+          <div className="part part-2">
+            <div className="shade shade-2"></div>
+          </div>
+          <div className="part part-3">
+            <div className="shade shade-3"></div>
+          </div>
+          <div className="part part-4">
+            <div className="shade shade-4"></div>
+          </div>
+          <div className="part part-5">
+            <div className="shade shade-5"></div>
           </div>
         </div>
       </>

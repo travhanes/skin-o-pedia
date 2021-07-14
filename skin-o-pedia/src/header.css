@@ -6,13 +6,14 @@
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(251, 229, 217);
+  cursor: pointer;
 }
 
 .container {
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 100px;
   flex-direction: row;
   align-content: stretch;
   justify-content: center;
@@ -29,50 +30,50 @@ a {
 
 .nav-link {
   display: block;
-  padding: 4px;
+  padding: 1px;
   height: 20%;
   width: 100%;
-  background: purple;
+  background: rgb(200, 155, 134);
 }
 
 .nav-link:hover {
-  background: rgb(110, 1, 110);
+  background: rgb(182, 141, 122);
 }
 
 .nav-link:active {
-  background: rgb(83, 0, 83);
+  background: rgb(159, 108, 81);
 }
 
 .part-1 {
-  background: red;
+  background: rgb(49, 20, 18);
   width: 20%;
 }
 
 .part-2 {
-  background: orange;
+  background: rgb(83, 43, 27);
   width: 20%;
 }
 
 .part-3 {
-  background: yellow;
+  background: rgb(154, 77, 34);
   width: 20%;
 }
 
 .part-4 {
-  background: green;
+  background: rgb(181, 101, 48);
   width: 20%;
 }
 
 .part-5 {
-  background: blue;
+  background: rgb(209, 130, 67);
   width: 20%;
 }
 
 .logo {
   position: absolute;
   font-size: 2.5rem;
-  color: black;
-  top: 7.5%;
+  color: rgb(254, 239, 227);
+  top: 13px;
   left: 50%;
   transform: translate(-50%, -0%);
   z-index: 10;

@@ -1,7 +1,7 @@
 import React from "react";
 import { About } from "./pages/about";
 import { Contact } from "./pages/contact";
-import { Explore } from "./pages/explore";
+import { Explore } from "./pages/Explore";
 import { Flashcard } from "./pages/flashcard";
 import { Homepage } from "./pages/homepage";
 
